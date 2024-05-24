@@ -3,6 +3,8 @@ html{
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     height: 100%;
     background-color: #C2D5DB;
     margin: 0 0 0 0;
@@ -11,23 +13,54 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    align-items: center;
     width: 100%;
+}
+
+main {
+    display: flex;
+    align-items: center;
 }
 
 footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 5%;
     width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    overflow: hidden;
+    padding-bottom: 2%;
+}
+
+.left-header {
+    flex-direction: column;
+    max-width: 50%;
+    float: left;
+    display: flex;
+    flex: 1 1 0px;
+    padding: auto;
+}
+
+.middle-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-header {
+    flex-direction: column;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    flex: 1 1 0px;
 }
 
 .left {
+    flex-direction: column;
+    max-width: 50%;
+    float: left;
     display: flex;
-    justify-content: start;
     flex: 1 1 0px;
+    padding: 5% 0 5% 10%;
 }
 
 .middle {
@@ -38,7 +71,14 @@ footer {
 }
 
 .right {
+    flex-direction: column;
+    max-width: 50%;
     display: flex;
+    align-items: center;
     flex: 1 1 0px;
-    justify-content: end;
+    padding: 5% 10% 5% 0;
+}
+
+#healthy-ocean, img{
+    height: 250px;
 }
