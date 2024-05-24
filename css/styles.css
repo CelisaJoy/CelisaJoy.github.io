@@ -30,30 +30,6 @@ footer {
     padding-bottom: 2%;
 }
 
-.left-header {
-    flex-direction: column;
-    max-width: 50%;
-    float: left;
-    display: flex;
-    flex: 1 1 0px;
-    padding: auto;
-}
-
-.middle-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.right-header {
-    flex-direction: column;
-    max-width: 50%;
-    display: flex;
-    align-items: center;
-    flex: 1 1 0px;
-}
-
 .left {
     flex-direction: column;
     max-width: 50%;
@@ -64,8 +40,6 @@ footer {
 }
 
 .middle {
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
