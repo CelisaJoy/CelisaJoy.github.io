@@ -55,3 +55,24 @@ footer {
 #healthy-ocean, img{
     height: 250px;
 }
+
+@media screen and (max-width: 600px) {
+
+    main {
+        display: block;
+    }
+
+    .left {
+        max-width: none !important;
+        padding-right: 42px;
+    }
+
+    .right {
+        max-width: none !important;
+    }
+
+    #healthy-ocean, img{
+        width: 90%;
+    }
+    
+}
