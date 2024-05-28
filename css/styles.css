@@ -110,6 +110,31 @@ footer {
 
 @media screen and (max-width: 600px) {
 
+    header {
+        flex-direction: column;    
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 15%;
+    }
+
+    #titel {
+        order: 2;
+        padding-left: 0%;
+    }
+
+    .logo {
+        order: 1;
+        width: 250px;
+    }
+
+    #nav {
+        order: 3;
+    }
+
+    #nav a {
+        margin-left: 0px;
+    }
+
     .rij {
         display: block;
         border-radius: 0%;
